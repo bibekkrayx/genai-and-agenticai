@@ -1,0 +1,372 @@
+# ============================================================
+# Python
+# ============================================================
+
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Python build / distribution
+build/
+dist/
+*.egg-info/
+.eggs/
+*.egg
+wheels/
+
+# Packaging / installers
+pip-wheel-metadata/
+share/python-wheels/
+MANIFEST
+MANIFEST.in
+
+# ============================================================
+# Virtual Environments
+# ============================================================
+
+.venv/
+venv/
+env/
+ENV/
+.env/
+.env.local/
+.python-version
+
+# ============================================================
+# Environment & Secrets
+# ============================================================
+
+.env
+.env.*
+!.env.example
+!.env.template
+
+*.pem
+*.key
+*.crt
+
+# API keys / credentials
+secrets/
+credentials/
+*.secret
+*.secrets
+
+# ============================================================
+# uv
+# ============================================================
+
+# Keep uv.lock committed for applications.
+# Ignore only uv's local cache.
+.uv/
+
+# ============================================================
+# pip
+# ============================================================
+
+pip-log.txt
+pip-delete-this-directory.txt
+
+# ============================================================
+# Poetry / PDM / Hatch / Conda
+# ============================================================
+
+.poetry/
+.pdm-python
+.pdm-build/
+.hatch/
+.conda/
+
+# ============================================================
+# Jupyter Notebook
+# ============================================================
+
+.ipynb_checkpoints/
+*.nbconvert.ipynb
+
+# Jupyter temporary files
+.jupyter/
+.runtime/
+
+# ============================================================
+# LangChain / LangGraph
+# ============================================================
+
+# Local LangSmith configuration / credentials
+.langsmith/
+langsmith/
+
+# LangGraph local state / checkpoints
+.langgraph/
+langgraph_data/
+checkpoints/
+
+# ============================================================
+# AI / ML / LLM Models
+# ============================================================
+
+# Downloaded models
+models/
+model/
+checkpoints/
+weights/
+
+# Hugging Face cache
+.huggingface/
+huggingface_cache/
+.cache/huggingface/
+
+# Transformers / datasets cache
+.cache/
+
+# Ollama local data
+.ollama/
+
+# Local model files
+*.safetensors
+*.gguf
+*.ggml
+*.bin
+*.pt
+*.pth
+*.ckpt
+*.onnx
+
+# ============================================================
+# Embeddings / Vector Databases
+# ============================================================
+
+# FAISS
+*.faiss
+*.index
+
+# Chroma
+chroma/
+.chroma/
+chroma_db/
+
+# Qdrant
+qdrant/
+.qdrant/
+
+# LanceDB
+.lancedb/
+
+# Weaviate local data
+.weaviate/
+
+# Milvus
+.milvus/
+
+# Pinecone local/cache data
+.pinecone/
+
+# Generic vector stores
+vector_db/
+vectorstore/
+vector_store/
+embeddings/
+embedding_cache/
+
+# ============================================================
+# AI Generated / Runtime Data
+# ============================================================
+
+data/
+datasets/
+artifacts/
+outputs/
+output/
+results/
+runs/
+logs/
+tmp/
+temp/
+
+# Generated files
+generated/
+generated_files/
+
+# Audio / video generated during development
+audio/
+videos/
+recordings/
+
+*.wav
+*.mp3
+*.mp4
+*.m4a
+*.webm
+
+# Images generated/downloaded locally
+generated_images/
+*.png
+*.jpg
+*.jpeg
+*.webp
+
+# ============================================================
+# Evaluation / Experiments
+# ============================================================
+
+experiments/
+evals/
+evaluation/
+benchmarks/
+wandb/
+mlruns/
+
+# ============================================================
+# ML Experiment Tracking
+# ============================================================
+
+# Weights & Biases
+wandb/
+
+# MLflow
+mlruns/
+
+# TensorBoard
+runs/
+tensorboard/
+
+# ============================================================
+# Databases
+# ============================================================
+
+*.db
+*.sqlite
+*.sqlite3
+
+# Local database directories
+postgres_data/
+mysql_data/
+mongodb_data/
+redis_data/
+
+# ============================================================
+# Docker
+# ============================================================
+
+docker-compose.override.yml
+docker-compose.local.yml
+
+# Docker local volumes
+.docker/
+
+# ============================================================
+# Logs
+# ============================================================
+
+*.log
+logs/
+
+# ============================================================
+# OS
+# ============================================================
+
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# ============================================================
+# IDE / Editors
+# ============================================================
+
+.vscode/
+.idea/
+*.iml
+
+# VS Code settings that may contain local configuration
+!.vscode/extensions.json
+
+# ============================================================
+# Ruff
+# ============================================================
+
+.ruff_cache/
+
+# ============================================================
+# Mypy
+# ============================================================
+
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# ============================================================
+# Pyright
+# ============================================================
+
+.pyright/
+
+# ============================================================
+# Pytest
+# ============================================================
+
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+.pytest_cache/
+
+# ============================================================
+# Coverage
+# ============================================================
+
+coverage.xml
+*.cover
+*.py,cover
+
+# ============================================================
+# Type Checking / Linters
+# ============================================================
+
+.pyre/
+.pytype/
+.pyre_configuration
+
+# ============================================================
+# Celery
+# ============================================================
+
+celerybeat-schedule
+celerybeat.pid
+
+# ============================================================
+# FastAPI / Uvicorn
+# ============================================================
+
+uvicorn.log
+
+# ============================================================
+# Temporary / Local Development
+# ============================================================
+
+*.tmp
+*.temp
+*.swp
+*.swo
+*.bak
+*~
+
+.cache/
+.local/
+.local_data/
+
+# ============================================================
+# OS / Finder
+# ============================================================
+
+.directory
+
+# ============================================================
+# Security / Scanning
+# ============================================================
+
+.trivy/
+.gitleaks/
